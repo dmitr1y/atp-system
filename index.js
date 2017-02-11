@@ -14,7 +14,7 @@ var app         = express();
 
 // * Methods
 // Configuration
-app.set('port', (process.env.PORT || 8887));
+app.set('port', (process.env.PORT || 7000));
 app.use(bodyParser.urlencoded({ extended: false })); // Client request type is "application/x-www-form-urlencoded"
 
 // Routing
